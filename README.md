@@ -4,12 +4,12 @@
 
 Flex streaming video player component for "Visualmente"
 
-Programado para poder usar los mismos parametros que el componente spark de video por defecto, pero utilizando "**mw**" como namespace, por ejemplo:
+Programado para poder usar los mismos parametros que el componente spark de video por defecto, utilizando "**mw**" como namespace, por ejemplo:
 
 	<mw:VVideoPlayer source="http://streamya.live.cdn.bitgravity.com/streamya/live/feed01"/>
 
 
-En el caso de disponibilidad de multiples fuentes dinámicas su uso es el siguiente:
+o en el caso de disponibilidad de multiples fuentes dinámicas:
 
 	<mw:VVideoPlayer>
 		<mw:source>
@@ -31,6 +31,3 @@ En el caso de disponibilidad de multiples fuentes dinámicas su uso es el siguie
 Para activar/desactivar monitoreo de performance se ha utilizado:
 	
 	<debugger:FlexFPSMonitor/>
-	
-=====
-july 15, 2013 – metodowhite
