@@ -20,13 +20,19 @@
 			public function test():void {
 				s = label1.visible; 
 				label1.text = "label1.visible = " + String(s);
+				label2.text = "scrub.visible = " + testVideoPlayer.scrub;
 			}
 		]]>
 	</fx:Script>
-
+	
 	<s:Label id="label1"/>
-
-	<mw:VVideoPlayer source="http://streamya.live.cdn.bitgravity.com/streamya/live/feed01"/>
+	<s:Label id="label2"/>
+	
+	
+	<mw:VVideoPlayer id="testVideoPlayer" source="http://streamya.live.cdn.bitgravity.com/streamya/live/feed01" scrub="true"/>
 	
 	<debugger:FlexFPSMonitor/>
+	
+
+	
 </s:Application>

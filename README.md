@@ -9,7 +9,7 @@ Programado para poder usar los mismos parametros que el componente spark de vide
 	<mw:VVideoPlayer source="http://streamya.live.cdn.bitgravity.com/streamya/live/feed01"/>
 
 
-o en el caso de disponibilidad de multiples fuentes dinámicas:
+En el caso de disponibilidad de multiples fuentes dinámicas su uso es el siguiente:
 
 	<mw:VVideoPlayer>
 		<mw:source>
@@ -31,3 +31,6 @@ o en el caso de disponibilidad de multiples fuentes dinámicas:
 Para activar/desactivar monitoreo de performance se ha utilizado:
 	
 	<debugger:FlexFPSMonitor/>
+	
+=====
+july 15, 2013 – metodowhite
